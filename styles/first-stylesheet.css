@@ -1,47 +1,63 @@
-h1:hover {
-  color: magenta; 
-}
-a:visited {
-  text-decoration: none; 
-}
-
-header {
+homepage header {
   text-align: center;
-  width: 75%;
-  margin: auto;
-}  
-article {
-  width: 60%;
-  margin: auto;
-}
-p:first-letter {
-  font-size: 1.5em;
-}
-footer {
-  border: 2px solid magenta;
-  border-radius: 25px;
-}
-
-header img {
-  width: 33%;
-}
+  width: 25%;
+  margin: auto; 
+  }  
+homepage header img {
+  width: 80;
+  position: relative;
+  padding: 10px 30px; 
+  }
 /* more specific takes precedence */
 a {
  text-decoration: none;  
-}
-nav a {
-  text-decoration: line-through;
-}
-/* more recent takes precedence */
-p {
-  color: peachpuff
-}
-p {
-  color: firebrick;
-}
-
-
-
+  } 
+#homepage {
+  float: left;
+  background-color: floralwhite;
+  }
+.main {
+  width: 58%;
+  float: left;
+  background-color: #e8e8e8; 
+  }
+img {
+  float: right;
+  }
+.side {
+  width: 38%;
+  float: right;
+  background-color: #fbd5d5;
+  }
+h1 {
+  font-size: 3em;
+  background-color: beige;
+  }
+footer { 
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+  padding-left: 20px;
+  padding-right: 40px;
+  border-top-width: 2px solid black;
+  border-radius: 25px;
+  clear: both;
+  }
+.project-description {
+  float: left;
+  width: 58%;
+  background-color: floralwhite
+  }
+.work {
+  width: 38%;
+  float: right;
+  background-color: #fbd5d5;
+  }
+nav {
+    clear:both;
+    float: left;
+    width: 200px;
+    border: 3px solid #8AC007; 
+  } 
 
 
 
