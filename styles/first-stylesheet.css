@@ -1,38 +1,76 @@
-homepage header {
+* {margin: 0;
+   padding: 0;
+}
+
+article, aside, header, footer, nav {
+ display: block; 
+}
+
+html { 
+  background: -prefix-linear-gradient(top, gray, white); 
+  background: linear-gradient(to bottom, gray, white);
+  list-style-position: inside;
+}
+
+/* remember more specific takes precedence */
+header {
   text-align: center;
-  width: 25%;
-  margin: auto; 
+  min-width: 98%; 
+  font: small-caps bold 150% "PT Sans";
+  padding-top: 2rem;  
+  padding-bottom: 1.5rem; 
+  background: linear-gradient(to bottom, #151554, #cce6ff);
+  border-width: 6px;
+  border-style: outset;
+  border-color: azure black; 
+  margin-bottom: 25px;
   }  
-homepage header img {
-  width: 80;
-  position: relative;
-  padding: 10px 30px; 
-  }
-/* more specific takes precedence */
-a {
- text-decoration: none;  
-  } 
-#homepage {
-  float: left;
-  background-color: whitesmoke;
-  }
 body {
-  line-height: 1.2;
-  margin: 0;
+  font-family: 'Josefin Sans', 'Calibri', 'Oxygen', "Times News Roman", 'PT Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
   }
+#center {
+ width: 960px;
+ margin: 0 auto;
+ text-align: left; 
+}
+h2 {
+   font: small-caps bold 150% "PT Sans"; 
+}
 .main {
-  width: 58%;
+  clear: both; 
   float: left;
-  background-color: #e8e8e8; 
-  }
-img {
+  max-width: 60%; 
+  border-width: 6px;
+  border-style: outset;
+  border-color: azure black;
+  padding: 1%;
+  background: linear-gradient(to bottom, #e8e8e8, #cce6ff);
+  } 
+.side_one {
   float: right;
-  }
-.side {
-  width: 38%;
-  float: right;
-  background-color: #fbd5d5;
-  }
+  min-width: 10%; 
+  border-width: 6px;
+  border-style: outset;
+  border-color: azure black; 
+  background: linear-gradient(to bottom, #e8e8e8, #cce6ff); 
+  margin-bottom: 25px;
+  } 
+.side_one img {
+  min-width: 15%;
+}  
+.side_two { 
+  font: bold 'Oxygen'; 
+  text-align: center;
+  float: right; 
+  min-width: 35%; 
+  border-width: 6px;
+  border-style: outset;
+  border-color: azure black; 
+  background: linear-gradient(to bottom, #e8e8e8, #cce6ff);  
+  }  
 a:link { 
   color: blue; 
   }
@@ -42,43 +80,58 @@ a:visited {
 a:hover { 
   color: purple; 
   }
-h1 {
-  font-size: 3em;
-  background-color: beige;
-  }
-.project-description {
-  float: left;
-  width: 58%;
-  background-color: floralwhite
-  }
-.work {
-  width: 38%;
-  float: right;
-  background-color: #fbd5d5;
-  }
-nav {
-  clear:both;
-  float: left;
-  width: 200px;
-  border: 3px solid #8AC007; 
-  } 
 /* padding is your friend */
 footer { 
-  padding-top: 1em;
-  padding-bottom: 1.5em;
-  padding-left: 20px;
-  padding-right: 40px;
-  border-top-width: 2px solid black;
+  font: bold 150%;
+  text-align: center;
+  padding: 1em 1.5em 20px 40px;  
+  border-top-width: 2px;
   border-radius: 25px;
   clear: both;
   }
 
-
-
-
-
-
-
+/* css instructions for projects page */
+header {
+  text-align: center;
+  min-width: 98%; 
+  font: small-caps bold 150% "PT Sans";
+  padding-top: 2rem;  
+  padding-bottom: 1.5rem; 
+  background: linear-gradient(to bottom, #151554, #cce6ff);
+  border-width: 6px;
+  border-style: outset;
+  border-color: azure black; 
+  margin-bottom: 25px;
+  }   
+.projects_left {
+  clear: both;
+  float: left;
+  max-width: 55%; 
+  border-width: 6px;
+  border-style: outset;
+  border-color: azure black; 
+  background: linear-gradient(to bottom, #e8e8e8, #cce6ff); 
+  margin-bottom: 25px;
+  padding: 1%;
+}
+.work {
+  float: right;
+  min-width: 35%; 
+  border-width: 6px;
+  border-style: outset;
+  border-color: azure black; 
+  background: linear-gradient(to bottom, #e8e8e8, #cce6ff); 
+  margin-bottom: 25px;
+  } 
+.descript { 
+  float: left;
+  max-width: 55%; 
+  border-width: 6px;
+  border-style: outset;
+  border-color: azure black;
+  padding: 1%;
+  background: linear-gradient(to bottom, #e8e8e8, #cce6ff);
+} 
 
 
 
